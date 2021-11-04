@@ -21,6 +21,7 @@ class BlockButton extends StatelessWidget {
           backgroundColor: MaterialStateProperty.all(backgroundColor),
           foregroundColor: MaterialStateProperty.all(foregroundColor),
           fixedSize: MaterialStateProperty.all(buttonSize),
+          elevation: MaterialStateProperty.all(0),
         ),
       ),
     );
