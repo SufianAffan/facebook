@@ -15,6 +15,7 @@ class CircleButton extends StatelessWidget {
       margin: const EdgeInsets.symmetric(horizontal: 5.0),
       child:  CircleAvatar(
         backgroundColor: backgroundColor,
+        radius: radius,
         child: IconButton(
           onPressed: onPressed,
           icon: icon,

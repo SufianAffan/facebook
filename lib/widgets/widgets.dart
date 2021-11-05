@@ -6,4 +6,7 @@ export 'post_button.dart';
 export 'room_card.dart';
 export 'post.dart';
 export 'story_card.dart';
+export 'group_header.dart';
+export 'video_header.dart';
+export 'game_header.dart';
 
