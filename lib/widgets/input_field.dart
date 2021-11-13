@@ -28,6 +28,7 @@ class _InputFieldState extends State<InputField> {
         obscureText: widget.isPassword ?? false,
         decoration: InputDecoration(
           hintText: widget.hintText,
+         // labelStyle: ,
           suffixIcon: IconButton(
             onPressed: (){
               setState(() {

@@ -31,17 +31,13 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
           CircleButton(
               icon: const Icon(Icons.search, color: Colors.black,),
             backgroundColor: Colors.grey.shade200,
-            onPressed: (){
-
-            },
+            onPressed: (){ },
             radius: 22,
           ),
           CircleButton(
             icon: const Icon(MdiIcons.facebookMessenger, color: Colors.black,),
             backgroundColor: Colors.grey.shade200,
-            onPressed: (){
-
-            },
+            onPressed: (){ },
             radius: 22,
           )
         ],

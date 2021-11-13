@@ -7,8 +7,8 @@ class BlockButton extends StatelessWidget {
   final Color? backgroundColor;
   final Color? foregroundColor;
   final Size? buttonSize;
-
-  const BlockButton({Key? key, required this.onPress, this.backgroundColor, this.foregroundColor, this.buttonSize, required this.child}) : super(key: key);
+  const BlockButton({Key? key, required this.onPress, this.backgroundColor,
+    this.foregroundColor,this.buttonSize, required this.child}):super(key: key);
 
   @override
   Widget build(BuildContext context) {

@@ -43,6 +43,7 @@ class _SignUpState extends State<SignUp> {
                 buttonSize: Size(size.width, 50),
             ),
             const SizedBox(height: 10,),
+
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[

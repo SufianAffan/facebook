@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:facebook/widgets/widgets.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
@@ -19,8 +18,8 @@ class _MenuScreenState extends State<MenuScreen> {
       child: SingleChildScrollView(
         child: Column(
           children: <Widget>[
-            MenuHeader(),
-            Divider(),
+            const MenuHeader(),
+            const Divider(),
             Row(
               children:const  <Widget>[
                 CircleAvatar(
@@ -162,7 +161,7 @@ class _MenuScreenState extends State<MenuScreen> {
             const Divider(),
              ExpansionTile(
                 title: const Text('Community Resources'),
-                leading: Icon(Icons.favorite_outlined, color: Colors.blueGrey,),
+                leading:const Icon(Icons.favorite_outlined, color: Colors.blueGrey,),
               children: <Widget>[
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
